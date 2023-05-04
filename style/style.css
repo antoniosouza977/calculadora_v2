@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Ubuntu:wght@400;700&display=swap');
+* {
+    font-size: 1.1em;
+    font-family: 'Oxygen Mono', monospace;
+    border-radius: 5px;
+}
+body {
+    background-color: black;
+}
+#title {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    color: white;
+    font-size: 1.5em;
+}
+#corpo {
+    background-color: #6A7080;
+    max-width: 800px;
+    padding: 5px;
+    margin: 20px auto;
+}
+#visor {
+    padding: 5px;
+    max-width: 100%;
+    height: fit-content;
+
+}
+#visor-text {
+    font-size: 1.5em;
+    background-color: #131418;
+    color: white;
+    text-align: right;
+    max-width: 100%;
+    margin: 0;
+    padding: 15px 20px; 
+}
+#div_botoes {
+    margin: 5px auto;
+    padding: o;
+    max-width: 100%;
+    height: 300px;
+    padding: 5px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 19% 19% 19% 19%;
+    gap: 5px;
+}
+.key {
+    display: block;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+.number {
+    background-color: #131418;
+    color: white;
+}
+.equal {
+    background-color: #0A9B98;
+    color: white;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (max-width: 700px) {
+    * {
+        font-size: 1.1em;
+    }
+   /*  #title {
+        font-size: 1.4em;
+    }
+    #visor-text {
+        font-size: 1.5em;
+    } */
+}
+@media screen and (max-width: 460px) {
+    * {
+        font-size: 1.1em;
+    }
+}
+    #title {
+        font-size: 1em;
+    }
+    #visor-text {
+        padding: 15px 10px;
+        font-size: 1em;
+    }
+ 
